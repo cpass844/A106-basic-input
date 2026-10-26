@@ -11,3 +11,10 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+print("Sphere Volume Calculator")
+
+r = float(input("What is the radius of your sphere in meters?"))
+
+import math 
+
+print(f"The volume is {4/3*math.pi*math.pow(r, 3)} cubic meters")
