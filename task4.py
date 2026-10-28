@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+print("Surface area of a cone calculator\n\nEnter values in M")
+
+import math 
+r = float(input("What is the radius?"))
+h = float(input("What is the height?"))
+l = math.sqrt((h**2)+(r**2))
+tsa = (math.pi*r**2+math.pi*r*l)
+
+print(f"The Total Surface area is {tsa}")
